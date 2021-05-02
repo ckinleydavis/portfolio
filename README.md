@@ -58,10 +58,10 @@
 
 > [Spotify](https://open.spotify.com/user/1227450862?si=CRTlsI7JRuy0B2E7VxElRQ)
 
-## Quick References
+<!-- ## Quick References
 
 > [Project Documentation with Markdown](https://www.mkdocs.org)
 
 > [Markdown Syntax Quick Reference](https://www.markdownguide.org/cheat-sheet)
 
-> [MDN Web Docs](https://developer.mozilla.org/en-US/)
+> [MDN Web Docs](https://developer.mozilla.org/en-US/) -->
