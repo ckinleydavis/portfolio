@@ -4,15 +4,11 @@
 
 <p align="justify">Mrs. Davis is currently seeking an opportunity to work as a Full Flex Web Developer. She has previous experience as a Data Analyst using Microsoft SQL Server (T-SQL) and SAP Business Objects for data mining and reporting. Mrs. Davis is an active learner: In March 2020 she completed 60-hours of active, case-based learning on the fundamentals of financial accounting through Harvard Business School. Mrs. Davis is currently fulfilling the requirements of a six-month coding bootcamp through The Ohio State University to be completed July 2021.</p>
 
-<br/>
-
 ## Education
 
 > [Bachelor of Science in Information Systems Technology (Wilberforce University, 2008)](#)
 
 > [Associate of Science in Information Technology (Clark State Community College, 2001)](#)
-
-<br/>
 
 ## Work History
 
@@ -46,8 +42,6 @@
   </summary>
 </details>
 
-<br/>
-
 ## Portfolio
 
 <div>
@@ -56,8 +50,6 @@
   <a href="#" target="_blank"><img src="./assets/img/white_240x400.gif" style="margin:10px 5px 0 5px; border:0; width:240px; height:400px;" alt="Project One"></a>
 </div>
 
-<br/>
-
 ## Contact Me
 
 > [LinkedIn](https://www.linkedin.com/in/ckinleydavis/)
@@ -65,8 +57,6 @@
 > [Instagram](https://www.instagram.com/kinley2520/)
 
 > [Spotify](https://open.spotify.com/user/1227450862?si=CRTlsI7JRuy0B2E7VxElRQ)
-
-<br/>
 
 ## Quick References
 
