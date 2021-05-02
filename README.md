@@ -1,14 +1,9 @@
 # | CKINLEYDAVIS
 
-The intended audience are all those that seek to teach, preach, and distribute branch school lectures online. The Founder, Dr. Henry Clifford Kinley, was very specific on the mission of the school and the manner in which the gospel would be distributed to the general public. 
+## Profile
+Mrs. Davis is currently seeking an opportunity to work as a Full Flex Web Developer. She has previous experience as a Data Analyst using Microsoft SQL Server (t-sql) and SAP Business Objects for data mining and reporting. Mrs. Davis is an active learner: In March 2020 she completed 60-hours of active, case-based learning on the fundamentals of financial accounting through Harvard Business School. Mrs. Davis is currently fulfilling the requirements of a six-month coding bootcamp through The Ohio State University to be completed July 2021.
 
-The purpose of this guideline is to generate reflection on how the Internet and Social Media platforms may be used, and to raise awareness of certain standards and public relation strategies to continue to improve content and protect all those involved in the creation and distribution of said-content.
- 
-The Internet, and specifically Social Media (i.e. YouTube), are revolutionary, most notably in their utility for reaching a wide audience at a very affordable cost. With any technology, it’s important to recognize that there are pros, cons and limitations. It’s not as simple as just connecting a camera to the Internet. 
-
-Given the recent tensions in religious and secular communities, it would be worthwhile to pause and reflect deeply on the following recommendations and stimulate introspection.
-
-## I. Administrative Standards
+<!-- ## I. Administrative Standards
 <details>
 <summary>Precautions</summary>
 
@@ -152,7 +147,7 @@ Given the recent tensions in religious and secular communities, it would be wort
     <li>
         <p>Reto Meier, <cite>Professional Android 4 Application Development</cite>, 3rd edition, (2012)</p>
     </li>
-</ol>
+</ol> -->
 
 ## Quick References
 
