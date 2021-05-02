@@ -4,11 +4,15 @@
 
 <p align="justify">Mrs. Davis is currently seeking an opportunity to work as a Full Flex Web Developer. She has previous experience as a Data Analyst using Microsoft SQL Server (T-SQL) and SAP Business Objects for data mining and reporting. Mrs. Davis is an active learner: In March 2020 she completed 60-hours of active, case-based learning on the fundamentals of financial accounting through Harvard Business School. Mrs. Davis is currently fulfilling the requirements of a six-month coding bootcamp through The Ohio State University to be completed July 2021.</p>
 
+<br/>
+
 ## Education
 
 > [Bachelor of Science in Information Systems Technology (Wilberforce University, 2008)](#)
 
 > [Associate of Science in Information Technology (Clark State Community College, 2001)](#)
+
+<br/>
 
 ## Work History
 
@@ -17,14 +21,14 @@
     Business Analyst - Kinley Funeral Home (Springfield, OH)
   </summary>
 
-  <!-- 
-  <ol start="1">
+  <!-- <ol start="1">
     <li>
       <p>
         <b><i>Troubleshooting and solved technical issues to support the directors in their day-to-day activities, including computer hardware issues, web development, application upgrades and integrations.</i></b>
       </p>
     </li>
   </ol> -->
+
 </details>
 <details>
   <summary>
@@ -42,6 +46,18 @@
   </summary>
 </details>
 
+<br/>
+
+## Portfolio
+
+<div>
+  <a href="#" target="_blank"><img src="./assets/img/black_240x400.gif" style="margin:10px 5px 0 5px; border:0; width:240px; height:400px;" alt="Project One"></a>
+  <a href="#" target="_blank"><img src="./assets/img/grey_240x400.gif" style="margin:10px 5px 0 5px; border:0; width:240px; height:400px;" alt="Project One"></a>
+  <a href="#" target="_blank"><img src="./assets/img/white_240x400.gif" style="margin:10px 5px 0 5px; border:0; width:240px; height:400px;" alt="Project One"></a>
+</div>
+
+<br/>
+
 ## Contact Me
 
 > [LinkedIn](https://www.linkedin.com/in/ckinleydavis/)
@@ -50,18 +66,7 @@
 
 > [Spotify](https://open.spotify.com/user/1227450862?si=CRTlsI7JRuy0B2E7VxElRQ)
 
-<!-- 
-## Bibliography
-
-<ol>
-    <li>
-        <p>E.Balagurusamy, <cite>Programming with JAVA: A Primer</cite>, 3rd edition, (2007)</p>
-    </li>
-    <li>
-        <p>Reto Meier, <cite>Professional Android 4 Application Development</cite>, 3rd edition, (2012)</p>
-    </li>
-</ol> 
--->
+<br/>
 
 ## Quick References
 
