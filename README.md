@@ -1,4 +1,4 @@
-# | CKINLEYDAVIS
+# | KINLEYDAVIS
 
 ## Profile
 
