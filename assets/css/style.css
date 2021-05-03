@@ -1,0 +1,27 @@
+/* Color Palette and Font Variables */
+:root {
+    --font: 'Open Sans', 'Verdana', 'Arial', 'Helvetica', 'sans-serif';
+}
+
+/* Header Properties */
+.header {
+    font-family: var(--font);
+}
+
+/* Wireframe */
+.wireframe {
+    height: 800px;
+    width: 100%;
+    margin: 25px;
+    background-image: url("../img/portfolio-wireframe.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Footer Properties */
+.footer {
+    text-align: center;
+    font-family: var(--font);
+    padding-bottom: 25px;
+    padding-bottom: 25px;
+}
