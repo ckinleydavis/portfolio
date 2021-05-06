@@ -1,3 +1,10 @@
+/* Remove Basic Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Color Palette and Font Variables */
 :root {
     --font: 'Open Sans', 'Verdana', 'Arial', 'Helvetica', 'sans-serif';
@@ -17,6 +24,92 @@
     background-size: cover;
     background-position: center;
 }
+
+body {
+    text-align: center;
+}
+
+/************************************************************
+    ANIMATING SVG FILE USING CSS
+    REF TUTORIAL: https://www.youtube.com/watch?v=gWai7fYp9PY
+*************************************************************/
+
+/*  Inner Wheel I */
+
+#inner-wheel-i{
+    /* animation: innerwheel-i 1s ease-in-out infinite alternate; */
+    /* transform-origin: bottom; */
+    animation: innerwheeli 20s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes innerwheeli {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(20deg);
+    }
+}
+
+/*  Inner Wheel II */
+
+#inner-wheel-ii{
+    /* animation: innerwheel-ii 1s ease-in-out infinite alternate; */
+    /* transform-origin: bottom; */
+    animation: innerwheelii 1s ease-in-out infinite alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes innerwheelii {
+    from {
+        transform: translate(0%);
+    }
+
+    to {
+        transform: translate(30%);
+    }
+}
+
+/*  Dots */
+
+#inner-dots{
+     
+}
+
+@keyframes dots {
+    from {
+        
+    }
+
+    to {
+        
+    }
+}
+
+/*  Outer Wheel */
+
+#outer-wheel{
+    animation: outerwheel 20s infinite linear;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+@keyframes outerwheel {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+/*  Miscellaneous Points */
+
 
 /* Footer Properties */
 .footer {
