@@ -11,7 +11,7 @@
 
 /* Header Properties - Class Selectors & ID Selector */
 
-/* Developer Name */
+    /* Developer Name */
     .header {
         margin: 20px;
         font-family: var(--font-pt-sans);
@@ -22,19 +22,36 @@
         text-transform: uppercase;
     }
 
-/* Developer Photo */
+    /* Developer Photo */
     #avatar {
         height: 150px;
         border-radius: 50%;
     }
 
-/* Site Purpose */
+    /* Site Purpose */
     .hdr-section h2 {
         font-family: var(--font-open-sans);
         font-weight:lighter;
         font-size: 18px;
         letter-spacing: 10px;
     }
+
+    /* Navigation */
+    nav {
+        display: flex;
+        /* justify-content: space-between; */
+        min-width: 300px;
+      }
+      
+      /* nav a {
+        color: #b9C6ae;
+        font-weight: bold;
+        text-decoration: none;
+      }
+      
+      nav a:hover {
+        color: #fff;
+      } */
 
 /* Body Properties - Element Selectors, Class Selectors */
 
@@ -105,16 +122,6 @@
         width: 95%;
         border: var(--section-borders);
     }
-
-/* Wireframe */
-/* .wireframe {
-    height: 800px;
-    width: 100%;
-    margin: 25px;
-    background-image: url("../img/portfolio-wireframe.png");
-    background-size: cover;
-    background-position: center;
-} */
 
 /************************************************************
     ANIMATING SVG FILE USING CSS

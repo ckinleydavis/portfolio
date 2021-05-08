@@ -42,18 +42,19 @@
   </summary>
 </details>
 
-## Portfolio
+## Wireframe
+
+<div class="wireframe">
+  <img src="./assets/img/portfolio-wireframe.png" height="400px" width="100%" margin="25px" alt="Wireframe">
+  <!-- height: 800px;
+    width: 100%;
+    margin: 25px;
+    background-size: cover;
+    background-position: center; -->
+</div>
 
 <div>
   <a href="#" target="_blank"><img src="./assets/img/black_240x400.gif" style="margin:10px 5px 0 5px; border:0; width:240px; height:400px;" alt="Project One"></a>
   <a href="#" target="_blank"><img src="./assets/img/grey_240x400.gif" style="margin:10px 5px 0 5px; border:0; width:240px; height:400px;" alt="Project One"></a>
   <a href="#" target="_blank"><img src="./assets/img/white_240x400.gif" style="margin:10px 5px 0 5px; border:0; width:240px; height:400px;" alt="Project One"></a>
 </div>
-
-## Contact Me
-
-> [LinkedIn](https://www.linkedin.com/in/ckinleydavis/)
-
-> [Instagram](https://www.instagram.com/kinley2520/)
-
-> [Spotify](https://open.spotify.com/user/1227450862?si=CRTlsI7JRuy0B2E7VxElRQ)
