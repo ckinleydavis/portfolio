@@ -1,37 +1,125 @@
-/* Remove Basic Styling */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /* Color Palette and Font Variables */
-:root {
-    --font: 'Open Sans', 'Verdana', 'Arial', 'Helvetica', 'sans-serif';
-}
+    :root {
+        --font-lobster: 'Lobster', cursive;
+        --font-londrina-shadow: 'Londrina Shadow', cursive;
+        --font-londrina-solid: 'Londrina Solid', cursive;
+        --font-open-sans: 'Open Sans Condensed', sans-serif;
+        --font-pt-sans: 'PT Sans', sans-serif;
 
-/* Header Properties */
-.header {
-    font-family: var(--font);
-}
+        --section-borders: 5px dashed purple;  
+    }
+
+/* Header Properties - Class Selectors & ID Selector */
+
+/* Developer Name */
+    .header {
+        margin: 20px;
+        font-family: var(--font-pt-sans);
+        font-weight: bold;
+        font-size: 25px;
+        letter-spacing: 5px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+/* Developer Photo */
+    #avatar {
+        height: 150px;
+        border-radius: 50%;
+    }
+
+/* Site Purpose */
+    .hdr-section h2 {
+        font-family: var(--font-open-sans);
+        font-weight:lighter;
+        font-size: 18px;
+        letter-spacing: 10px;
+    }
+
+/* Body Properties - Element Selectors, Class Selectors */
+
+    body {
+        width: 90%;
+        align-content: center;
+    }
+
+/* Container for the content of the body. */
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: lemonchiffon;
+        height: 90%;
+        border: var(--section-borders);  
+    }
+
+/* Placeholder image properties */
+    .content img {
+        display: block;
+        margin: 25px;
+        height: 125px;
+        width: 80%;
+    }
+
+    .content h3 {
+        font-family: var(--font-open-sans);
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    table.center {
+        margin-left: auto; 
+        margin-right: auto;
+    }
+
+    #hdr-row {
+        vertical-align: middle;
+        height: 50px;
+    }
+
+/* Graphics Showcase */
+    .graphics-section {
+        display: flex;
+        margin: 20px;
+        background-color: greenyellow;
+        width: 95%;
+        border: var(--section-borders);
+    }
+
+/* Data Showcase */
+    .data-section {
+        display: flex;
+        margin: 20px;
+        background-color: hotpink;
+        width: 95%;
+        border: var(--section-borders);
+    }
+
+/* Application Showcase */
+    .app-section {
+        display: flex;
+        margin: 20px;
+        background-color: lightskyblue;
+        width: 95%;
+        border: var(--section-borders);
+    }
 
 /* Wireframe */
-.wireframe {
+/* .wireframe {
     height: 800px;
     width: 100%;
     margin: 25px;
     background-image: url("../img/portfolio-wireframe.png");
     background-size: cover;
     background-position: center;
-}
-
-body {
-    text-align: center;
-}
+} */
 
 /************************************************************
     ANIMATING SVG FILE USING CSS
     REF TUTORIAL: https://www.youtube.com/watch?v=gWai7fYp9PY
+    SVG, Class Selectors, ID Selectors & Keyframes
 *************************************************************/
 
 /*  Inner Wheel I */
@@ -111,10 +199,19 @@ body {
 /*  Miscellaneous Points */
 
 
-/* Footer Properties */
+/* Footer Properties - Class Selectors & ID Selectors */
 .footer {
+    margin: 20px;
     text-align: center;
-    font-family: var(--font);
+    letter-spacing: 5px;
     padding-bottom: 25px;
     padding-bottom: 25px;
+}
+
+#copyright {
+    font-family: var(--font-lobster);
+}
+
+#reserved {
+    font-family: var(--font-londrina-shadow);
 }
