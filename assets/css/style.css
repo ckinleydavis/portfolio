@@ -6,6 +6,11 @@
         --font-open-sans: 'Open Sans Condensed', sans-serif;
         --font-pt-sans: 'PT Sans', sans-serif;
 
+        --white: #fff;
+        --silver: silver;
+        --gray: gray;
+        --bluish: #526a99;
+
         --section-borders: 5px dashed purple;  
     }
 
@@ -37,21 +42,31 @@
     }
 
     /* Navigation */
-    nav {
-        display: flex;
-        /* justify-content: space-between; */
-        min-width: 300px;
+    nav ul li {
+        display: inline-flex;
+        /* float: left; */
+        margin: 0;
+        background-color: var(--silver);
+        border-radius: 6%;
+        list-style-type: none;
+        font-family: var(--font-open-sans);
+        font-weight: bold;
+        font-size: 14px;
+        text-align: center;
+        letter-spacing: 5px;
       }
       
-      /* nav a {
-        color: #b9C6ae;
-        font-weight: bold;
+      nav a {
+        display: block;
+        text-align: center;
+        padding: 7px 8px;
         text-decoration: none;
+        color: var(--white);
       }
       
       nav a:hover {
-        color: #fff;
-      } */
+        color: var(--bluish);
+      }
 
 /* Body Properties - Element Selectors, Class Selectors */
 
@@ -60,7 +75,7 @@
         align-content: center;
     }
 
-/* Container for the content of the body. */
+    /* Container for the content of the body. */
     .content {
         display: flex;
         flex-direction: column;
@@ -71,7 +86,7 @@
         border: var(--section-borders);  
     }
 
-/* Placeholder image properties */
+    /* Placeholder image properties */
     .content img {
         display: block;
         margin: 25px;
@@ -96,7 +111,7 @@
         height: 50px;
     }
 
-/* Graphics Showcase */
+    /* Graphics Showcase */
     .graphics-section {
         display: flex;
         margin: 20px;
@@ -105,7 +120,7 @@
         border: var(--section-borders);
     }
 
-/* Data Showcase */
+    /* Data Showcase */
     .data-section {
         display: flex;
         margin: 20px;
@@ -114,7 +129,7 @@
         border: var(--section-borders);
     }
 
-/* Application Showcase */
+    /* Application Showcase */
     .app-section {
         display: flex;
         margin: 20px;
@@ -122,89 +137,6 @@
         width: 95%;
         border: var(--section-borders);
     }
-
-/************************************************************
-    ANIMATING SVG FILE USING CSS
-    REF TUTORIAL: https://www.youtube.com/watch?v=gWai7fYp9PY
-    SVG, Class Selectors, ID Selectors & Keyframes
-*************************************************************/
-
-/*  Inner Wheel I */
-
-#inner-wheel-i{
-    /* animation: innerwheel-i 1s ease-in-out infinite alternate; */
-    /* transform-origin: bottom; */
-    animation: innerwheeli 20s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-@keyframes innerwheeli {
-    from {
-        transform: rotateZ(0deg);
-    }
-
-    to {
-        transform: rotateZ(20deg);
-    }
-}
-
-/*  Inner Wheel II */
-
-#inner-wheel-ii{
-    /* animation: innerwheel-ii 1s ease-in-out infinite alternate; */
-    /* transform-origin: bottom; */
-    animation: innerwheelii 1s ease-in-out infinite alternate;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-@keyframes innerwheelii {
-    from {
-        transform: translate(0%) ;
-    }
-
-    to {
-        transform: translate(30%);
-    }
-}
-
-/*  Dots */
-
-#inner-dots{
-     
-}
-
-@keyframes dots {
-    from {
-        
-    }
-
-    to {
-        
-    }
-}
-
-/*  Outer Wheel */
-
-#outer-wheel{
-    animation: outerwheel 20s infinite linear;
-    transform-origin: center;
-    transform-box: fill-box;
-}
-
-@keyframes outerwheel {
-    from {
-        transform: rotateZ(0deg);
-    }
-
-    to {
-        transform: rotateZ(360deg);
-    }
-}
-
-/*  Miscellaneous Points */
-
 
 /* Footer Properties - Class Selectors & ID Selectors */
 .footer {
