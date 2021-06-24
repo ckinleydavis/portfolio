@@ -14,11 +14,18 @@
         --section-borders: 5px dashed purple;  
     }
 
+body {
+    width: 100%;
+    align-content: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, lightblue, rgb(170, 248, 170));
+}
+
 /* Header Properties - Class Selectors & ID Selector */
 
     /* Developer Name */
     .header {
-        margin: 20px;
+        margin: 0 auto;
         font-family: var(--font-pt-sans);
         font-weight: bold;
         font-size: 25px;
@@ -68,12 +75,7 @@
         color: var(--bluish);
       }
 
-/* Body Properties - Element Selectors, Class Selectors */
-
-    body {
-        width: 90%;
-        align-content: center;
-    }
+/* Element Selectors, Class Selectors */
 
     /* Container for the content of the body. */
     .content {
