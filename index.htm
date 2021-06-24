@@ -32,12 +32,18 @@
         <!-- Google Fonts -->
         <link 
             rel="preconnect" 
+            href="https://fonts.googleapis.com"
+        />
+
+        <link 
+            rel="preconnect" 
             href="https://fonts.gstatic.com"
+            crossorigin
         />
 
         <link 
             rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Lobster&family=Londrina+Shadow&family=Londrina+Solid&family=Open+Sans+Condensed:wght@300&family=PT+Sans&display=swap" 
+            href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&Lobster&family=Londrina+Shadow&family=Londrina+Solid&family=Open+Sans+Condensed:wght@300&family=PT+Sans&display=swap" 
         />
 
         <!-- Independent Styling -->
@@ -48,22 +54,43 @@
     </head>
     <body>
         <div class="container-fluid">
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <!-- Header Section -->
-                <div class="column">
+                <div class="col-md-auto">
                     <div class="header">
                         <header>
                             <h1>Carla Kinley-Davis</h1>
-                            <p>&nbsp;</p>
                             <p><img id="avatar" src="./assets/img/avatar-kinley-davis.png" alt="Photo of Kinley Davis"></p>
                         </header>
                         
                         <section class="hdr-section">
-                            <p>&nbsp;</p>
-                            <h2>Fullstack Web Developer Portfolio</h2>
+                            <h2>Fullstack Web Developer</h2>
                         </section>
 
-                        <!-- Navigation Buttons -->
+                        <!-- Navigation -->
+                        <!-- <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="github-tab" data-bs-toggle="tab" data-bs-target="#github" type="button" role="tab" aria-controls="github" aria-selected="false">GitHub</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
+                            </li>
+                        </ul>
+
+                          <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
+                            <div class="tab-pane fade" id="github" role="tabpanel" aria-labelledby="github-tab">...</div>
+                            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                          </div> -->
                         <section class="nav">
                             <nav>
                                 <ul>
@@ -76,10 +103,9 @@
                             </nav>
                         </section>
                     </div>
-                    <div><p>&nbsp;</p></div>
                 </div>
                 <!-- Placeholder for Portfolio Items -->
-                <div class="column">
+                <div class="col-md-auto">
                     <div class="content">
                         <section class="osu-section">
                             <table class="center">
@@ -206,7 +232,7 @@
                         </g>
                     </svg> 
                 </div> -->
-                <div class="column">
+                <div class="col-md-auto">
                     <div class="footer">
                         <p id="copyright">&copy;<!-- 2021 - --><script>document.write(new Date().getFullYear())</script>, Kinley Davis & Associates, LLC</p>
                         <p>&nbsp;</p>

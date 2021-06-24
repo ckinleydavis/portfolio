@@ -1,5 +1,6 @@
 /* Color Palette and Font Variables */
     :root {
+        --font-viaoda: 'Viaoda Libre';
         --font-lobster: 'Lobster', cursive;
         --font-londrina-shadow: 'Londrina Shadow', cursive;
         --font-londrina-solid: 'Londrina Solid', cursive;
@@ -27,7 +28,8 @@ body {
     .header {
         margin: 0 auto;
         /* font-family: var(--font-pt-sans); */
-        font-family: var(--font-lobster);
+        /* font-family: var(--font-lobster); */
+        font-family: var(--font-viaoda);
         font-weight: bold;
         font-size: 35px;
         letter-spacing: 5px;
@@ -84,9 +86,9 @@ body {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: lemonchiffon;
+        /* background-color: lemonchiffon; */
         height: 90%;
-        border: var(--section-borders);  
+        /* border: var(--section-borders);   */
     }
 
     /* Placeholder image properties */
@@ -118,9 +120,9 @@ body {
     .osu-section {
         display: flex;
         margin: 20px;
-        background-color:peachpuff;
+        /* background-color:peachpuff; */
         width: 95%;
-        border: var(--section-borders);
+        /* border: var(--section-borders); */
     }
 
     /* Graphics Showcase */
