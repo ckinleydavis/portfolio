@@ -15,6 +15,21 @@
         --section-borders: 5px dashed purple;  
     }
 
+    h3{
+        color: green;
+        }
+        .a1, .a2{
+        animation:blinking 1.5s infinite;
+        font-size: 20px;
+        }
+        @keyframes blinking{
+        0%{   color: red;   }
+        47%{   color: #000; }
+        62%{   color: transparent; }
+        97%{   color:transparent; }
+        100%{  color: #000;   }
+        }
+
 body {
     width: 100%;
     align-content: center;
